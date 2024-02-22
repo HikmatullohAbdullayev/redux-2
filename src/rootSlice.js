@@ -1,10 +1,13 @@
 
-import { combineReducers } from '@reduxjs/toolkit';
+// import { combineReducers } from '@reduxjs/toolkit';
 
-import boxReducer from './boxSlice';
+// import boxReducer from './boxSlice';
 
-const rootSlice =   combineReducers({
-   box: boxReducer,
-});
+// const rootSlice =   combineReducers({
+//    box: boxReducer,
+// });
 
-export default rootSlice;
+// export default rootSlice;
+
+
+

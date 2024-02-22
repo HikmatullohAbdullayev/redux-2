@@ -1,9 +1,13 @@
-
+// store.js
 import { configureStore } from '@reduxjs/toolkit';
-import  rootSlice from './rootSlice';
+import rootReducer from './boxReduser';
 
 const store = configureStore({
-   reducer: rootSlice,
+  reducer: rootReducer,
 });
 
 export default store;
+
+
+
+
