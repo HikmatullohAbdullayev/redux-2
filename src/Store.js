@@ -1,9 +1,9 @@
 
 import { configureStore } from '@reduxjs/toolkit';
-import rootReducer from './boxReduser';
+import aaaReduser from './boxReduser';
 
 const store = configureStore({
-  reducer: rootReducer,
+  reducer: aaaReduser,
 });
 
 export default store;
